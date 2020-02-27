@@ -45,6 +45,7 @@
   ],
   "orientation": "portrait",
   "display": "standalone",
+  "scope": "/",
   "start_url": "/",
   "description": "An application that allows you to add and subtract funds through transactions.",
   "background_color": "#01579b",
