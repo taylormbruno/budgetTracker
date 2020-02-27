@@ -1,0 +1,53 @@
+{
+  "icons": [
+    {
+      "src": "assets/icons/icon_512x512.273935f8ebdc8218f2ce26daa11d6844.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_384x384.0b2a00b0b845312bc013ad85074b0753.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_192x192.317079d2f38bc5d2906f5408114bbcd3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_152x152.c4c839dedf627f4ea8f6a2714571c4e3.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_144x144.2d256c504c95b385f63aff57b0ac3ec0.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_128x128.3d3683ece3cbf7afd56b9d4ebd823212.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_96x96.74b892b005aaab865730ec47e43273dd.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_72x72.8bd78b686eaa2d8ba7fd0c1bb2aff553.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "name": "Budget Tracker",
+  "short_name": "Budget",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "An application that allows you to add and subtract funds through transactions.",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff",
+  "theme-color": "#ffffff"
+}
