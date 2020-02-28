@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "webpack": "webpack",
-    "prestart": "npm run webpack",
+    "heroku-postbuild": "webpack",
+    "prestart": "webpack",
     "test": "npm run webpack",
     "start": "node server.js",
     "watch": "nodemon server.js",
