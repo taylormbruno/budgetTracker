@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack",
     "prestart": "npm run webpack",
-    "test": "npm run start",
+    "test": "npm run webpack",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "lite-server": "lite-server"

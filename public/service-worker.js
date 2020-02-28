@@ -33,6 +33,25 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
+  if(event.request.method === 'POST' || event.request.url.href.match(/*...*/)){
+    event.respondWith(
+      // First try to fetch the request from the server
+      fetch(event.request.clone())
+        // If it works, put the response into IndexedDB
+        .then(function(response) {
+            // Compute a unique key for the POST request
+            var key = getPostId(request);
+            // Create a cache entry
+            var entry = {
+                key: key,
+                response: serializeResponse(response),
+                timestamp: Date.now()
+            };
+            /* ... save entry to IndexedDB ... */
+            // Return the (fresh) response
+            return response;
+        })
+    )}
   if (event.request.url.startsWith(self.location.origin)) {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
