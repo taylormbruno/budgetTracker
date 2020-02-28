@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "heroku-postbuild": "webpack",
-    "prestart": "webpack -p",
     "test": "npm run webpack",
     "start": "node server.js",
     "watch": "nodemon server.js",
